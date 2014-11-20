@@ -1,0 +1,15 @@
+﻿<Application x:Class="TreeViewWithCheckBoxes.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:helpers="clr-namespace:MyLittleMergeTool.Helpers"
+    StartupUri="FileSelectorWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary>
+                    <helpers:IsDirectoryValueConverter x:Key="IsDirectoryValueConverter"/>
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

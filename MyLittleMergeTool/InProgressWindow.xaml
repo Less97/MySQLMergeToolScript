@@ -1,0 +1,16 @@
+﻿<Window x:Class="MyLittleMergeTool.InProgressWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="In Progress" Height="326.038" Width="566.038"
+        >
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                
+            </Grid.ColumnDefinitions>
+        </Grid>
+</Window>

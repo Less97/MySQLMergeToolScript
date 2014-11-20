@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Shapes;
+
+namespace MyLittleMergeTool
+{
+    /// <summary>
+    /// Interaction logic for InProgressWindow.xaml
+    /// </summary>
+    public partial class InProgressWindow : Window
+    {
+        public InProgressWindow()
+        {
+            InitializeComponent();
+        }
+    }
+}
